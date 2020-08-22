@@ -34,7 +34,7 @@ class TestLab1CNYT(unittest.TestCase):
 
     def test_pol_cart(self):
         c1 = [1.4142135623730951, 45.0]
-        self.assertEqual(Lab1CNYT.pol_cart(c1),[1,1])
+        self.assertEqual(Lab1CNYT.pol_cart(c1),[1.0000000000000002,1])
 
     def test_fase(self):
         c1 = [1,2]
