@@ -182,7 +182,7 @@ def producto_Matriz(a,b):
         for i in range(filaA):
             for j in range(columnaB):
                 for k in range(filaB):
-                    rta[i][j] = lab1.suma(rta[i][j],lbc.multiplicacion(a[i][k],b[k][j]))
+                    rta[i][j] = lab1.suma(rta[i][j],lab1.producto(a[i][k],b[k][j]))
 
         return rta
 
