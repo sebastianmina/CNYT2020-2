@@ -2,7 +2,7 @@
 # Prerrequisitos
 La libreria puede ser importada en python 3.6 
 # Instrucciones
-El archivo esta listo para correrse con la instruccion "import simulacion * "
+El archivo esta listo para correrse con la instruccion "import Ejercicios * "
 # Descripción
 En este repositorio se simularan algunos problemas de teoria cuantica 
 # 4.3.1
