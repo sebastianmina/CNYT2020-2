@@ -10,21 +10,7 @@ def posiblesProbabilidad(posicion, index):
             resultado = resultado + estados[i]
     return resultado
 
-""" Punto 4.3.2 """
-def probabilidadValoresPropios(posicion, index):
-    matrices = [[[(1,0),(0,0)],[(0,0),(-1,0)]],[[(0,0),(0,-1)],[(0,1),(0,0)]],[[(0,0),(1,0)],[(1,0),(0,0)]]]
-    valoresPropios = []
-    aux = posiblesProbabilidad(posicion, index)
-    pro= []
-    resultado = 0
-    for i in range(3):
-        valores,no = np.linalg.eig(matrices[i])
-        valoresPropios+=valores
-    for i in range(len(aux)):
-        pro+=probabilidad(posicion, aux[i])
-    for i in range(2):
-        ressultado+=(probabilidad[i]*valoresPropios[indice][i])
-    return resultado
+
 
 """ Punto 4.4.1"""
 def verificarUnitarias():
